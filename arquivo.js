@@ -51,12 +51,3 @@ switch(true){
         nivel = "Nivel Desconhecido"
         break;  
 }
-
-
-console.log(`O Héroi ${nome} de nome está no nivel de ${nivel}`)
-
-citarNomes("Pão Francês", "Torrada");
-
-function citarNomes(pao, torrada){
-    console.log(`Eu gosto de ${pao} com ${torrada}`);
-}
